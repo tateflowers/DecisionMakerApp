@@ -35,7 +35,7 @@ console.log(imgOutput);
 else if(seasonInput == "spring" && price < 60 && intentionInput == "celebration") {
     imgOutput = "csp.flowers/tulip.png"
 }
-else if(seasonInput == "summer" && price > 60 && intentionInput == "celebration") {
+else if(seasonInput == "spring" && price > 60 && intentionInput == "celebration") {
     imgOutput = "csp.flowers/snapdragon.png"
 }
 
