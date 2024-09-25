@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="style2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<h1>Flower Generator</h1>
+		<p>Enter your information below to pick a flower!</p>
+	</header>
+
+	<center>
+		<label>Season: </label>
+    <select id="season">
+      <option value="summer">Summer</option>
+      <option value="spring">Spring</option>
+      <option value="fall">Fall</option>
+      <option value="winter">Winter</option>
+    </select>
+    <br>
+    <br>
+
+    <label>Price: </label>
+    <input type="slider" id="price"><br><br>
+      
+    <label>Intention: </label>
+    <select id="intention">
+      <option value="romance">Romance</option>
+      <option value="grieving">Grieving</option>
+      <option value="celebration">Celebration</option>
+    </select>
+    <br>
+    <br>
+
+    <button onclick="getFlower()">Create My Flower!</button>
+
+    <div class="outputBox">
+      <label></label>
+		  <p id="output"> </p>
+	  </div>
+
+  </center>
+    <script src="script3.js"></script>
+  </body>
+</html>
