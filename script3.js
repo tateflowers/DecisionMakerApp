@@ -15,6 +15,7 @@ else if(seasonInput == "summer" && price < 60 && intentionInput == "romance") {
 else if(seasonInput == "summer" && price < 60 && intentionInput == "celebration") {
     imgOutput = "csp.flowers/daffodil.png"
 }
+  
   else if(seasonInput == "summer" && price > 60 && intentionInput == "celebration") {
     imgOutput = "csp.flowers/marigold.png"
 }
@@ -30,6 +31,12 @@ else if(seasonInput == "summer" && price < 60 && intentionInput == "celebration"
 }
 console.log(imgOutput);
     document.getElementById("flower").src = imgOutput;
+}
+else if(seasonInput == "spring" && price < 60 && intentionInput == "celebration") {
+    imgOutput = "csp.flowers/tulip.png"
+}
+else if(seasonInput == "summer" && price > 60 && intentionInput == "celebration") {
+    imgOutput = "csp.flowers/snapdragon.png"
 }
 
 
