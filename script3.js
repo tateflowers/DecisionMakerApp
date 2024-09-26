@@ -38,8 +38,15 @@ else if(seasonInput == "spring" && price < 60 && intentionInput == "celebration"
 else if(seasonInput == "spring" && price > 60 && intentionInput == "celebration") {
     imgOutput = "csp.flowers/snapdragon.png"
 }
-
-
+else if(seasonInput == "spring" && price < 60 && intentionInput == "grieving") {
+    imgOutput = "csp.flowers/lily.png"
+}
+else if(seasonInput == "fall" && price > 60 && intentionInput == "grieving") {
+    imgOutput = "csp.flowers/amarylis.png"
+}
+else if(seasonInput == "winter" && price > 60 && intentionInput == "grieving") {
+    imgOutput = "csp.flowers/sunflower.png"
+}
 function showPrice(){
     document.getElementById("price").innerHTML = document.getElementById("slider").value
 }
