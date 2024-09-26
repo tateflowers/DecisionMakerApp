@@ -47,8 +47,11 @@ else if(seasonInput == "fall" && price > 60 && intentionInput == "grieving") {
 else if(seasonInput == "winter" && price > 60 && intentionInput == "grieving") {
     imgOutput = "csp.flowers/sunflower.png"
 }
-else if(seasonInput == "summer" && price > 60 && intentionInput == "grieving") {
-    imgOutput = "csp.flowers/marigold.png"
+else if(seasonInput == "summer" && price < 60 && intentionInput == "grieving") {
+    imgOutput = "csp.flowers/amarylis.png"
+}
+else if(seasonInput == "spring" && price > 60 && intentionInput == "romance") {
+    imgOutput = "csp.flowers/amarylis.png"
 }
 function showPrice(){
     document.getElementById("price").innerHTML = document.getElementById("slider").value
